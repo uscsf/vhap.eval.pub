@@ -1,0 +1,21 @@
+@import "vhap";
+.row{
+    padding: 5px;
+    font-size:12px;
+}
+.grant-statement{
+    color:$vhap-dark-purple;
+}
+.label{
+    text-decoration: underline;
+    font-size:13.6px!important;
+    font-weight: bold;
+}
+.image{
+    width:352px;
+    height:240px;
+}
+
+::ng-deep .mat-dialog-container {
+    overflow-y: hidden !important;
+}

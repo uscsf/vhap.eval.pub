@@ -1,0 +1,36 @@
+@import "vhap";
+.viewport {
+    height: 400px;
+    width: 400px;
+  }
+  
+.item {
+  color: $vhap-dark-purple;
+}
+
+.item:nth-child(odd){
+  background-color: #F5F5F5;
+}
+
+.item:hover {
+  cursor: pointer;
+  color: $vhap-lite-purple;
+}
+
+img{
+  height: 40px;
+  width: 40px;
+  border-radius: 30%;
+  padding: 10px;
+}
+
+.form {
+  min-width: 150px;
+  max-width: 500px;
+  width: 100%;
+}
+
+.full-width {
+  width: 100%;
+}
+

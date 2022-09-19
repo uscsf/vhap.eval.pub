@@ -1,0 +1,29 @@
+  <form class="form">
+    <mat-form-field class="full-width" appearance="fill">
+      <mat-label>Search DB</mat-label>
+      <input type="text"
+             placeholder="Enter name"
+             aria-label="Number"
+             matInput
+             [formControl]="myControl"
+             [matAutocomplete]="auto"
+             (keyup.enter)="GetSearchResults()"
+             [(ngModel)] = "value">
+      <mat-autocomplete #auto="matAutocomplete">
+        <mat-option *ngFor="let option of filteredOptions | async" [value]="option" (click)="GetSearchResults()">
+          {{option}}
+        </mat-option>
+      </mat-autocomplete>
+    </mat-form-field>
+  </form>
+  <cdk-virtual-scroll-viewport appendOnly itemSize="50" class="viewport vscroller">
+    <div *cdkVirtualFor="let item of finalSearchResults" class="item"(click)="openDialog(item)" fxLayout="row" fxLayout.xs="column">
+        <img src="{{item.ImageURL}}" alt="imageItemAutoComplete"> 
+        <p fxHide.lt-md fxLayoutAlign="left"> {{item.TapeLabel}}</p>   
+    </div>
+  </cdk-virtual-scroll-viewport>
+
+
+ 
+
+

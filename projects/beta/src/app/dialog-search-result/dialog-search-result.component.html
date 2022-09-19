@@ -1,0 +1,18 @@
+
+  <div fxLayout="row">  
+    <div fxFlex="100"><img src="{{item.ImageURL}}" alt="imgItem" class="image"></div>
+  </div>
+  <div fxLayout="row" fxLayout.xs="column" fxLayoutGap="10px" class="row">  
+    <div fxFlex="45" class="label"> {{item.TapeLabel}}</div>  
+    <div fxFlex="55" fxHide.lt-md fxLayoutAlign="end"> {{item.Length}}</div>   
+   </div>  
+   <div fxLayout="row" fxLayout.xs="column" fxLayoutGap="10px" class="row">  
+    <div fxFlex="45"> {{item.OrganizationName}}</div>  
+    <div fxFlex="55" fxHide.lt-md fxLayoutAlign="end"> {{item.LanguageLabel}}</div>   
+   </div>  
+   <div fxLayout="row" class="row grant-statement">  
+    <div fxFlex="100">{{item.GrantStatement}}</div>  
+   </div>  
+   <div fxLayout="row" class="row">
+    <div fxFlex="100" fxHide.lt-md fxLayoutAlign="end"> {{item.ExperienceGroup}}</div>   
+   </div>
