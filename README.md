@@ -4,7 +4,7 @@ This assignment is part of the candidate selection process for an Angular develo
 
 ### Instructions:
 
-- make a fork of this repository into your github
+- clone this repository
 - add angular material
 - add ngrx
 
