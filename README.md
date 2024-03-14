@@ -10,7 +10,7 @@ This assignment is part of the candidate selection process for an Angular develo
 
 #### ⭐ Utilizing Angular Material and NgRx, reproduce to some degree the sample application at:
 
-https://vhi-dev.usc.edu/eval
+https://vhap.usc.edu/eval
 
 The application:  
 'HOME' just a landing page  
