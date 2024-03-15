@@ -26,6 +26,8 @@ You can spend as much time as you feel is appropriate for the complexity of the 
 ⭐ When finished, please make your project available to our team for review. We should be able to run it via _$ npm install_ and _$ ng serve_.  
 ⭐ Please also let us know how many hours you spent to create the reproduction.
 
+##### _NOTE: Should update your package and global versions of Node,Typescript and RxJS according to Angular V17 requirements. Also, npm should be 8.+ or later._
+
 ---
 
 ### API endpoints:
