@@ -23,7 +23,7 @@ Should reproduce the colors and general look-and-feel of the reference applicati
 Should have responsive layout for small screen (ex. 600px wide breakpoint).  
 It is not necessary to be 'pixel-perfect'.  
 You can spend as much time as you feel is appropriate for the complexity of the application and your skill level.  
-⭐ When finished, please make your forked repository available to our team for review.  
+⭐ When finished, please make your project available to our team for review. We should be able to run it via _$ npm install_ and _$ ng serve_.  
 ⭐ Please also let us know how many hours you spent to create the reproduction.
 
 ---
